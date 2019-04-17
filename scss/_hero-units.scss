@@ -1,0 +1,18 @@
+.hero-unit {
+  background: url('../img/hero-unit-background-desktop.jpg');
+  background-size: cover;
+  background-position: center;
+
+
+  min-height: 100vh;
+  padding: 50px 0;
+
+  .hero-unit-subheading {
+    color: #9ACFF6;
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin-bottom: 55px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+}
