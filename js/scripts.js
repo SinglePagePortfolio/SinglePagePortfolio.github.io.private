@@ -31,4 +31,10 @@ $(document).ready(function () {
       alert('There was a problem submitting your contact enquiry. Please try again later.');
     });
   });
+
+  $('#portfolio-button').click(function () {
+    $('html, body').animate({
+      scrollTop: $('#portfolio-section').offset().top
+    }, 1500);
+  });
 })
