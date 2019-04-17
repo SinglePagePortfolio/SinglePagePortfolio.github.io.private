@@ -217,3 +217,18 @@ a {
   font-weight: bold;
   font-size: 14px;
   padding: 10px 0; }
+
+.skillsets .skillset {
+  margin-top: 20px; }
+  .skillsets .skillset .skillset-heading {
+    color: #797979;
+    letter-spacing: 1.5px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 5px; }
+
+.progress .progress-bar.bg-primary {
+  background: -webkit-linear-gradient(344.37deg, #EA2626 -21.04%, #0029FF 147.44%);
+  background: -o-linear-gradient(344.37deg, #EA2626 -21.04%, #0029FF 147.44%);
+  background: linear-gradient(105.63deg, #EA2626 -21.04%, #0029FF 147.44%); }
