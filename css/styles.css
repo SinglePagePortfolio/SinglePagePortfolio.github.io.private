@@ -14,10 +14,18 @@ h2 {
   font-weight: 700;
   letter-spacing: -1.5px; }
 
+a {
+  color: #9ACFF6; }
+  a:hover, a:active, a:focus {
+    color: #54aef0; }
+
 .content-dark {
   color: #fff; }
   .content-dark h1, .content-dark h2, .content-dark h3, .content-dark h4, .content-dark h5, .content-dark h6, .content-dark p {
     color: #fff; }
+
+.img-circle {
+  border-radius: 50%; }
 
 .hero-unit {
   background: url("../img/hero-unit-background-desktop.jpg");
@@ -72,6 +80,26 @@ h2 {
 .content-section.content-section-centered {
   padding: 60px 0;
   text-align: center; }
+
+.content-section.content-section-side-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row; }
+  .content-section.content-section-side-image .content-section-side-image-content {
+    background: #303B48;
+    padding: 50px 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1; }
+  .content-section.content-section-side-image .content-section-side-image-container {
+    width: 250px;
+    min-height: 500px;
+    background-size: cover;
+    background-position: center; }
 
 .portfolio-cards {
   margin-top: 60px; }

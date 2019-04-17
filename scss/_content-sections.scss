@@ -9,4 +9,21 @@
     text-align: center;
   }
 
+  &.content-section-side-image {
+    display: flex;
+    flex-direction: row;
+
+    .content-section-side-image-content {
+      background: #303B48;
+      padding: 50px 0;
+      flex-grow: 1;
+    }
+
+    .content-section-side-image-container {
+      width: 250px;
+      min-height: 500px;
+      background-size: cover;
+      background-position: center;
+    }
+  }
 }

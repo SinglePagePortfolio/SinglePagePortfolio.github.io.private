@@ -17,3 +17,11 @@ h2 {
   font-weight: 700;
   letter-spacing: -1.5px;
 }
+
+a {
+  color: #9ACFF6;
+
+  &:hover, &:active, &:focus {
+    color: darken(#9ACFF6, 15%);
+  }
+}
