@@ -3,9 +3,12 @@
   background-size: cover;
   background-position: center;
 
-
   min-height: 100vh;
   padding: 50px 0;
+
+  p {
+    margin: 35px 0;
+  }
 
   .hero-unit-subheading {
     color: #9ACFF6;
@@ -14,5 +17,22 @@
     margin-bottom: 55px;
     font-weight: 600;
     text-transform: uppercase;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .hero-unit {
+    background: url('../img/hero-unit-background-mobile.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+
+    .hero-unit-heading {
+      font-size: 40px;
+    }
+
+    .hero-unit-subheading {
+      font-size: 14px;
+    }
   }
 }

@@ -1,13 +1,18 @@
 html, body {
   font-family: 'Open Sans', sans-serif; }
 
+h1, h2, h3, h4, h5, h6 {
+  color: #0B3757; }
+
 h1 {
   font-size: 74px;
   font-weight: 700;
   letter-spacing: -3px; }
 
-p {
-  margin: 35px 0; }
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: -1.5px; }
 
 .content-dark {
   color: #fff; }
@@ -20,6 +25,8 @@ p {
   background-position: center;
   min-height: 100vh;
   padding: 50px 0; }
+  .hero-unit p {
+    margin: 35px 0; }
   .hero-unit .hero-unit-subheading {
     color: #9ACFF6;
     font-size: 24px;
@@ -27,6 +34,17 @@ p {
     margin-bottom: 55px;
     font-weight: 600;
     text-transform: uppercase; }
+
+@media only screen and (max-width: 576px) {
+  .hero-unit {
+    background: url("../img/hero-unit-background-mobile.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center; }
+    .hero-unit .hero-unit-heading {
+      font-size: 40px; }
+    .hero-unit .hero-unit-subheading {
+      font-size: 14px; } }
 
 .btn {
   text-transform: uppercase;
@@ -47,3 +65,38 @@ p {
       -webkit-box-shadow: none !important;
       box-shadow: none !important;
       text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.75); }
+
+.content-section .content-section-heading {
+  margin-bottom: 25px; }
+
+.content-section.content-section-centered {
+  padding: 60px 0;
+  text-align: center; }
+
+.portfolio-cards {
+  margin-top: 60px; }
+  .portfolio-cards .portfolio-card {
+    -webkit-box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.05);
+    background: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 30px; }
+    .portfolio-cards .portfolio-card .portfolio-card-image {
+      background-size: cover;
+      background-size: center;
+      height: 200px; }
+    .portfolio-cards .portfolio-card .portfolio-card-information {
+      padding: 25px 5px; }
+      .portfolio-cards .portfolio-card .portfolio-card-information .portfolio-card-title {
+        display: block;
+        font-size: 20px;
+        margin-bottom: 5px;
+        letter-spacing: -1px; }
+      .portfolio-cards .portfolio-card .portfolio-card-information .portfolio-card-credits {
+        display: block;
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #A7A7A7;
+        font-weight: 600; }
