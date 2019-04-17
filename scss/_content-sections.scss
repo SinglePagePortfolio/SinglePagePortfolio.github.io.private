@@ -27,3 +27,22 @@
     }
   }
 }
+
+@media only screen and (max-width: 576px) {
+  .content-section {
+    &.content-section-side-image {
+      flex-direction: column;
+
+      .content-section-heading {
+        text-align: center;
+      }
+
+      .content-section-side-image-container {
+        min-height: 80px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+      }
+    }
+  }
+}

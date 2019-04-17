@@ -101,6 +101,20 @@ a {
     background-size: cover;
     background-position: center; }
 
+@media only screen and (max-width: 576px) {
+  .content-section.content-section-side-image {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .content-section.content-section-side-image .content-section-heading {
+      text-align: center; }
+    .content-section.content-section-side-image .content-section-side-image-container {
+      min-height: 80px;
+      width: 100%;
+      background-size: cover;
+      background-position: center; } }
+
 .portfolio-cards {
   margin-top: 60px; }
   .portfolio-cards .portfolio-card {
