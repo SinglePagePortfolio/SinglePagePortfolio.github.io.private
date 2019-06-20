@@ -15,22 +15,22 @@ function buildMessageBody($form) {
 }
 
 $(document).ready(function () {
-  $('#contact-form').submit(function (e) {
-    e.preventDefault();
+//   $('#contact-form').submit(function (e) {
+//     e.preventDefault();
 
-    $('#contact-form-submit-button').prop('disabled', true);
+//     $('#contact-form-submit-button').prop('disabled', true);
 
-    $.post('https://mailthis.to/singlepageportfolioemails@gmail.com', {
-      email: 'johndoe@github.io',
-      _subject: 'Contact Form Submission',
-      message: buildMessageBody($(this))
-    }).then(function () {
-      location.href = 'https://mailthis.to/confirm';
-    }).catch(function () {
-      $('#contact-form-submit-button').prop('disabled', false);
-      alert('There was a problem submitting your contact enquiry. Please try again later.');
-    });
-  });
+//     $.post('https://mailthis.to/singlepageportfolioemails@gmail.com', {
+//       email: 'johndoe@github.io',
+//       _subject: 'Contact Form Submission',
+//       message: buildMessageBody($(this))
+//     }).then(function () {
+//       location.href = 'https://mailthis.to/confirm';
+//     }).catch(function () {
+//       $('#contact-form-submit-button').prop('disabled', false);
+//       alert('There was a problem submitting your contact enquiry. Please try again later.');
+//     });
+//   });
 
   $('#portfolio-button').click(function () {
     $('html, body').animate({
